@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_color"
+    android:padding="@dimen/padding_large">
+
+    <TextView
+        android:id="@+id/tvHomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_title"
+        android:textSize="@dimen/text_size_xlarge"
+        android:textColor="@color/primary_dark_color"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/margin_large" />
+
+    <TextView
+        android:id="@+id/tvUserWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="@dimen/margin_medium" />
+
+    <TextView
+        android:id="@+id/tvPrefSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/primary_color"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin_xlarge" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/btn_settings"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary_color"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginBottom="@dimen/margin_medium" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/btn_logout"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/error_color"
+        android:textSize="@dimen/text_size_medium" />
+
+</LinearLayout>

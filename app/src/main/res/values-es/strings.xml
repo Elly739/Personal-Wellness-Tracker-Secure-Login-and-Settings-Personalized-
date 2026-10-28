@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rastreador de Bienestar Okello Elly</string>
+    <string name="welcome_message">Bienvenido al Rastreador de Bienestar Okello Elly</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_signup">Registrarse</string>
+    <string name="auth_error_invalid">Nombre de usuario o contraseña inválidos</string>
+    <string name="auth_error_empty">Los campos no pueden estar vacíos</string>
+    <string name="signup_success">¡Registro exitoso! Por favor inicie sesión.</string>
+
+    <string name="home_title">Pantalla de Inicio</string>
+    <string name="logged_in_as">Conectado como: %s</string>
+    <string name="btn_settings">Configuración</string>
+    <string name="btn_logout">Cerrar Sesión</string>
+
+    <string name="settings_title">Configuración</string>
+    <string name="pref_category_notifications">Notificaciones</string>
+    <string name="pref_notifications_title">Habilitar notificaciones</string>
+    <string name="pref_notifications_summary">Recibir recordatorios diarios de bienestar</string>
+    <string name="pref_sound_title">Sonido activado/desactivado</string>
+    <string name="pref_sound_summary">Reproducir sonidos para recordatorios</string>
+
+    <string name="pref_category_appearance">Apariencia</string>
+    <string name="pref_dark_mode_title">Modo oscuro</string>
+    <string name="pref_dark_mode_summary">Habilitar tema oscuro</string>
+    <string name="pref_language_title">Idioma</string>
+    <string name="pref_language_summary">Seleccionar idioma de la aplicación</string>
+
+    <string name="pref_category_reminders">Recordatorios</string>
+    <string name="pref_username_title">Nombre de usuario</string>
+    <string name="pref_username_summary">Nombre de usuario de tu cuenta</string>
+    <string name="pref_reminder_hour_title">Hora del recordatorio diario</string>
+    <string name="pref_reminder_hour_summary">Establecer hora de recordatorio (0 a 23)</string>
+
+    <string name="pref_val_notifications">Notificaciones</string>
+    <string name="pref_val_reminder_hour">Hora de recordatorio</string>
+</resources>

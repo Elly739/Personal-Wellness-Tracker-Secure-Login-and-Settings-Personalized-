@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kifuatiliaji cha Afya cha Okello Elly</string>
+    <string name="welcome_message">Karibu kwenye Kifuatiliaji cha Afya cha Okello Elly</string>
+    <string name="username_hint">Jina la mtumiaji</string>
+    <string name="password_hint">Nenosiri</string>
+    <string name="btn_login">Ingia</string>
+    <string name="btn_signup">Jisajili</string>
+    <string name="auth_error_invalid">Jina la mtumiaji au nenosiri sio sahihi</string>
+    <string name="auth_error_empty">Sehemu haziwezi kuwa tupu</string>
+    <string name="signup_success">Usajili umefanikiwa! Tafadhali ingia.</string>
+
+    <string name="home_title">Ukurasa wa Nyumbani</string>
+    <string name="logged_in_as">Umeingia kama: %s</string>
+    <string name="btn_settings">Mipangilio</string>
+    <string name="btn_logout">Ondoka</string>
+
+    <string name="settings_title">Mipangilio</string>
+    <string name="pref_category_notifications">Taarifa</string>
+    <string name="pref_notifications_title">Washa taarifa</string>
+    <string name="pref_notifications_summary">Pokea vikumbusho vya afya vya kila siku</string>
+    <string name="pref_sound_title">Sauti imewashwa/imezimwa</string>
+    <string name="pref_sound_summary">Cheza sauti kwa vikumbusho</string>
+
+    <string name="pref_category_appearance">Muonekano</string>
+    <string name="pref_dark_mode_title">Hali ya giza</string>
+    <string name="pref_dark_mode_summary">Washa mandhari ya giza</string>
+    <string name="pref_language_title">Lugha</string>
+    <string name="pref_language_summary">Chagua lugha ya programu</string>
+
+    <string name="pref_category_reminders">Vikumbusho</string>
+    <string name="pref_username_title">Jina la mtumiaji</string>
+    <string name="pref_username_summary">Jina lako la mtumiaji la akaunti</string>
+    <string name="pref_reminder_hour_title">Muda wa ukumbusho wa kila siku</string>
+    <string name="pref_reminder_hour_summary">Weka saa ya ukumbusho (0 hadi 23)</string>
+
+    <string name="pref_val_notifications">Taarifa</string>
+    <string name="pref_val_reminder_hour">Saa ya ukumbusho</string>
+</resources>

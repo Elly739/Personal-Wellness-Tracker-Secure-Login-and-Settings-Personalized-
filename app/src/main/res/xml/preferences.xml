@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/pref_category_notifications">
+        <SwitchPreferenceCompat
+            android:key="notifications_enabled"
+            android:title="@string/pref_notifications_title"
+            android:summary="@string/pref_notifications_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="sound_enabled"
+            android:title="@string/pref_sound_title"
+            android:summary="@string/pref_sound_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_appearance">
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="@string/pref_dark_mode_title"
+            android:summary="@string/pref_dark_mode_summary"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="language"
+            android:title="@string/pref_language_title"
+            android:summary="@string/pref_language_summary"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:defaultValue="en" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_reminders">
+        <EditTextPreference
+            android:key="username"
+            android:title="@string/pref_username_title"
+            android:summary="@string/pref_username_summary"
+            android:defaultValue="Okello Elly" />
+
+        <SeekBarPreference
+            android:key="reminder_hour"
+            android:title="@string/pref_reminder_hour_title"
+            android:summary="@string/pref_reminder_hour_summary"
+            app:min="0"
+            android:max="23"
+            android:defaultValue="8" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
